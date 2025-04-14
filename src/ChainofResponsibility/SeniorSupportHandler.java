@@ -1,3 +1,5 @@
+package ChainofResponsibility;
+
 public class SeniorSupportHandler extends SupportHandler {
     @Override
     public void handle(String issue) {

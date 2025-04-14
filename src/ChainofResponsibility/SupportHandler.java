@@ -1,5 +1,6 @@
+package ChainofResponsibility;
 
-    public abstract class SupportHandler {
+public abstract class SupportHandler {
         protected SupportHandler nextHandler;
 
         public void setNext(SupportHandler handler) {
